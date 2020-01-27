@@ -36,7 +36,7 @@ public class Account {
 	}
 	
 	public void saque(double valor) {
-		this.saldo -= valor;
+		this.saldo -= valor + 5.0;
 	}
 	
 	public void deposito(double valor) {
